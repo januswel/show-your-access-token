@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "charset": "utf8",
+    "newLine": "LF",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "preserve",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
